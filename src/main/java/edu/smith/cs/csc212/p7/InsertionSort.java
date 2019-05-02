@@ -16,6 +16,7 @@ public class InsertionSort {
 	 * @param middle - the index of the list in which to start a loop.
 	 */
 	private static int binarySearch(ListADT<Integer> sorting, int middle) {
+		// I am not sure how to go about this.
 		int mid = sorting.size()/2;
 		if (sorting.getIndex(mid) == middle) {
 			return (mid);
